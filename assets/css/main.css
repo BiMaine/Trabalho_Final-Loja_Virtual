@@ -3284,7 +3284,7 @@ input, select, textarea {
 						ul.actions li > *.icon:before {
 							margin-left: -2em;
 						}
-
+						
 				ul.actions.small li {
 					padding: 0.5625em 0 0 0;
 				}
@@ -3307,4 +3307,4 @@ input, select, textarea {
 				padding: 0;
 			}
 
-	}
+		}

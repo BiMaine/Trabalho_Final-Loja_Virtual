@@ -150,4 +150,17 @@
 			}
 		});
 
+		function adicionarAoCarrinho(nomeProduto, precoProduto) {
+			console.log('Produto adicionado ao carrinho:', nomeProduto, 'Preço:', precoProduto);
+		}
+	
+		$('.adicionar-ao-carrinho').on('click', function(e) {
+			e.preventDefault();
+	
+			var nomeProduto = $(this).data('nome');
+			var precoProduto = $(this).data('preco');
+	
+			adicionarAoCarrinho(nomeProduto, precoProduto);
+		});	
+
 })(jQuery);

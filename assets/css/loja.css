@@ -1,0 +1,42 @@
+h2 {
+    text-align: center;
+}
+
+.product img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    text-align: left;
+    width: 100%;
+    margin-right: 0;
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+.product p.price {
+    margin-bottom: 10px;
+}
+
+.product button {
+    background-color: #8A2BE2;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}

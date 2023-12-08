@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/VetVibe.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/loja.css" />
+    <title>Clínica Veterinária - Loja</title>
+</head>
+<body class="is-preload">
+
+<section id="header">
+    <header>
+        <span class="image avatar"><img src="images/VetVibe.ico" alt="" /></span>
+        <h1 id="logo"><a href="#">VetVibe - Maranguape</a></h1>
+        <p>Saúde e carinho, a receita perfeita para pets felizes!</p>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li><a href="#one" class="active">Sobre</a></li>
+            <li><a href="#two">Serviços</a></li>
+            <li><a href="#three">Remédios</a></li>
+            <li><a href="#four">Contato</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <ul class="icons">
+            <li><a href="https://www.instagram.com/bimaine29/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="https://github.com/BiMaine" class="icon brands fa-github"><span class="label">Github</span></a></li>
+            <li><a href="mailto:headstonebeatriz123@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+    </footer>
+</section>
+
+<section id="three">
+    <div class="container">
+        <h2>Produtos Disponíveis</h2>
+        <div class="product-list">
+            <div class="product" data-id="1">
+                <img src="images/medicamento01.jpg" alt="Medicamento 1">
+                <h3>Pelo & Derme 1500 Vetnil Cães e Gatos - 60 Cápsulas</h3>
+                    <li>Fortalece e ajuda na manutenção da estrutura e função da pele</li>
+                    <li>Mantém a pele e derme mais saudáveis</li>
+                    <li>Contem vitaminas A e E e ômegas 3 e 6</li>
+                    <li>Consulte um profissional</li>
+                <p class="price">R$ 121.90</p>
+                <button onclick="adicionarAoCarrinho(1)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-id="2">
+                <img src="images/medicamento02.jpg" alt="Medicamento 2">
+                <h3>Ranivet Comprimidos - 80 mg</h3>
+                <p>Ranivet é recomendado em distúrbios de refluxo gastresofágico, esofagite e refluxo gastroduodenal.</p>
+                <p class="price">R$ 54.99</p>
+                <button onclick="adicionarAoCarrinho(2)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-id="3">
+                <img src="images/medicamento03.jpg" alt="Medicamento 3">
+                <h3>Aceproven 0,2% Injetável - 20 mL (Sipeagro)</h3>
+                <p>Acepran 0,2% é especialmente indicado para transportes de animais, pois promove tranquilização, sonolência e também atividade antiemética. Particularmente indicado como agente pré-anestésico, tanto por seu efeito tranquilizante, quanto pela potencialização de agentes anestésicos barbitúricos, não barbitúricos e dissociativos.</p>
+                <p class="price">R$ 42.43</p>
+                <button onclick="adicionarAoCarrinho(3)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-id="4">
+                <img src="images/medicamento04.jpg" alt="Medicamento 4">
+                <h3>HepVet</h3>
+                    <li>Rico em nutrientes;</li>
+                    <li>Indicado para cães e gatos;</li>
+                    <li>Alta palatabilidade sabor bacon;</li>
+                    <li>Embalagem com 30 comprimidos;</li>
+                    <li>Auxilia a metabolização de gordura;</li>
+                <p class="price">R$ 71.90</p>
+                <button onclick="adicionarAoCarrinho(4)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product" data-id="4">
+                <img src="images/medicamento05.jpg" alt="Medicamento 4">
+                <h3>Hemolitan Gold Vetnil - 30 g</h3>
+                <li>Auxilia no crescimento e desenvolvimento;</li>
+                <li>Rico em vitaminas e minerais;</li>
+                <li>Importante para o metabolismo;</li>
+                <li>Melhora o estado nutricional do seu pet;</li>
+                <p class="price">R$ 56.99</p>
+                <button onclick="adicionarAoCarrinho(4)">Adicionar ao Carrinho</button>
+            </div>
+
+<section id="cart">
+    <div class="container">
+        <h2>Carrinho de Compras</h2>
+        <div id="cart-items">
+        </div>
+        <p class="total">Total: R$ <span id="cart-total">0.00</span></p>
+        <button onclick="finalizarCompra()">Finalizar Compra</button>
+    </div>
+</section>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
